@@ -1,13 +1,32 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#question1 {
+  padding: 80px 0;
 }
-
-a:hover {
-  color: black;
+#question1 .box {
+  diplay: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #985736;
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
 }
-/*# sourceMappingURL=style.css.map */
+#question1 .box h2 {
+  color: white;
+  font-size: 35px;
+  padding: 10px 0;
+}
+#question1 .box .minibox input {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#question1 .box .minibox .btn {
+  background-color: white;
+  padding: 5px 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
