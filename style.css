@@ -29,4 +29,10 @@ body {
   padding: 5px 25px;
   border-radius: 20px;
   margin-top: 20px;
+}
+#question1 .box .minibox .btn h4 {
+  cursor: pointer;
+}
+#question1 .box .minibox .btn:hover {
+  background-color: rgba(213, 212, 209, 0);
 }/*# sourceMappingURL=style.css.map */
