@@ -3,12 +3,19 @@ $(document).ready(function () {
     
 });
 
-$('h2').click(function (e) {
-    e.preventDefault();
-    $('h2').html(1234);
-});
-
 $('.btn').click(function (e) {
     e.preventDefault();
-    $('input').html(e * 5);
+
+    let a = (a) => {
+        if (a < 0) {
+            console.log(a($('input').val()))
+        } else{
+            for (let i = 1; i <=a; i++) {
+                $('.col-md-12').append(`<h1>${a}<h1>`);
+            }
+        }
+        
+    }
+    a($('input').val())
 });
+
