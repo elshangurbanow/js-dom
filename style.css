@@ -3,10 +3,7 @@ body {
   font-weight: 500;
 }
 
-#question1 {
-  padding: 80px 0;
-}
-#question1 .box {
+#demojs {
   diplay: flex;
   align-items: center;
   text-align: center;
@@ -15,24 +12,24 @@ body {
   height: 200px;
   border-radius: 20px;
 }
-#question1 .box h2 {
+#demojs h2 {
   color: white;
   font-size: 35px;
   padding: 10px 0;
 }
-#question1 .box .minibox input {
+#demojs h2 input {
   padding: 10px 20px;
   border-radius: 20px;
 }
-#question1 .box .minibox .btn {
+#demojs h2 input .btn {
   background-color: white;
   padding: 5px 25px;
   border-radius: 20px;
   margin-top: 20px;
 }
-#question1 .box .minibox .btn h4 {
+#demojs h2 input .btn h4 {
   cursor: pointer;
 }
-#question1 .box .minibox .btn:hover {
+#demojs h2 input .btn:hover {
   background-color: #aba5a0;
 }/*# sourceMappingURL=style.css.map */
