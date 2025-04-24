@@ -3,33 +3,37 @@ body {
   font-weight: 500;
 }
 
-#demojs {
+#demojs .col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+#demojs .col-md-12 .box {
   diplay: flex;
-  align-items: center;
+  flex-flow: column;
   text-align: center;
   background-color: #985736;
   width: 280px;
   height: 200px;
   border-radius: 20px;
 }
-#demojs h2 {
+#demojs .col-md-12 .box h2 {
   color: white;
   font-size: 35px;
   padding: 10px 0;
 }
-#demojs h2 input {
+#demojs .col-md-12 input {
   padding: 10px 20px;
   border-radius: 20px;
 }
-#demojs h2 input .btn {
+#demojs .col-md-12 input .btn {
   background-color: white;
   padding: 5px 25px;
   border-radius: 20px;
   margin-top: 20px;
 }
-#demojs h2 input .btn h4 {
+#demojs .col-md-12 input .btn h4 {
   cursor: pointer;
 }
-#demojs h2 input .btn:hover {
+#demojs .col-md-12 input .btn:hover {
   background-color: #aba5a0;
 }/*# sourceMappingURL=style.css.map */
