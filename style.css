@@ -3,37 +3,35 @@ body {
   font-weight: 500;
 }
 
-#demojs .col-md-12 {
-  display: flex;
-  justify-content: center;
+#demojs {
+  padding: 80px 0;
 }
-#demojs .col-md-12 .box {
-  diplay: flex;
-  flex-flow: column;
+#demojs .box {
+  background-color: #85470d;
+  width: 250px;
+  height: 210px;
+  border-radius: 20px;
   text-align: center;
-  background-color: #985736;
-  width: 280px;
-  height: 200px;
-  border-radius: 20px;
 }
-#demojs .col-md-12 .box h2 {
-  color: white;
-  font-size: 35px;
-  padding: 10px 0;
+#demojs .box h1 {
+  font-size: 45px;
+  color: #fff;
+  margin: 20px 0;
 }
-#demojs .col-md-12 input {
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-#demojs .col-md-12 input .btn {
+#demojs .box .textbox input {
   background-color: white;
-  padding: 5px 25px;
+  padding: 13px 20px;
   border-radius: 20px;
+}
+#demojs .box .textbox .btn {
+  padding: 7px 25px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: white;
   margin-top: 20px;
 }
-#demojs .col-md-12 input .btn h4 {
-  cursor: pointer;
-}
-#demojs .col-md-12 input .btn:hover {
-  background-color: #aba5a0;
+@media screen and (max-width: 391px) {
+  #demojs .box {
+    margin-top: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */
