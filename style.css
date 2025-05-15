@@ -51,4 +51,49 @@ body {
   #demojs .box {
     margin-top: 80px;
   }
+}
+
+#whatsapp {
+  margin: 80px 0;
+}
+#whatsapp .chat {
+  width: 520px;
+  height: 350px;
+  background-color: #d3ddfd;
+  border-radius: 20px;
+  padding: 20px;
+}
+#whatsapp .chat .message {
+  border-radius: 20px;
+  background-color: white;
+  width: 480px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+}
+#whatsapp .chat .message .line {
+  background-color: #657ead;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+#whatsapp .chat .message .line h3 {
+  color: white;
+}
+#whatsapp .chat .text {
+  display: flex;
+  justify-content: center;
+}
+#whatsapp .chat .text input {
+  border-radius: 20px;
+}
+#whatsapp .chat .text .sent {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #657ead;
+  margin-left: 5px;
+}
+#whatsapp .chat .text .sent h3 {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
