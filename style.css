@@ -71,12 +71,17 @@ body {
   margin-bottom: 20px;
   padding: 10px;
   text-align: left;
+  overflow-y: auto;
+}
+#whatsapp .chat .message .end {
+  text-align: end;
 }
 #whatsapp .chat .message .line {
   background-color: #657ead;
   border-radius: 20px;
   padding: 10px;
   display: inline-block;
+  margin-bottom: 5px;
 }
 #whatsapp .chat .message .line h3 {
   color: white;
